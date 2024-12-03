@@ -63,16 +63,19 @@ input a,b;
 output sum,carry;
 assign sum=(a^b);
 assign carry=(a&b);
-endmodule '''
+endmodule
 HALF SUBRACTER
-''' module hs(a,b,difference,borrow);
+ module hs(a,b,difference,borrow);
 input a,b;
 output difference,borrow;
 assign difference=(a^b);
 assign borrow=(~a&b);
 endmodule'''
 
-**RTL Schematic**HALF ADDER
+**RTL Schematic**
+
+
+HALF ADDER
 ![Screenshot 2024-12-03 090043 half add logic](https://github.com/user-attachments/assets/ef5c89bf-4769-4be3-9764-6420d9737d9d)
 HALF SUBRACTER
 
