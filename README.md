@@ -58,7 +58,8 @@ Figure -02 HALF Subtractor
 
 Developed by: R.DEEPIKA RegisterNumber:24900220
 HALF ADDER
-''' module ha(a,b,sum,carry);
+```
+module ha(a,b,sum,carry);
 input a,b;
 output sum,carry;
 assign sum=(a^b);
@@ -70,7 +71,8 @@ input a,b;
 output difference,borrow;
 assign difference=(a^b);
 assign borrow=(~a&b);
-endmodule'''
+endmodule
+```
 
 **RTL Schematic**
 
